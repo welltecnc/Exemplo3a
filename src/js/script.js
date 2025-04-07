@@ -134,6 +134,19 @@ if(usuario =="teste"){
 // ternario
 
 
+let valor = 110;
+
+let resultado = valor == 100 ? "Certo" :"Errado"
+console.log(resultado)
+
+//ternario encadeado
+let produto ="mouse"
+const desconto =true;
+
+const preco= produto == "notebook" ? desconto ? 100 :200 : produto =="mouse" ? 30:100;
+console.log(preco)
+
+
 
 
 
